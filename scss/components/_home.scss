@@ -34,7 +34,13 @@
     .home-right{
         width: 50%;
         height: 100%;
+        display: flex;
+        justify-content: end;
         background-color: red;
+        .flower{
+            width: 530px;
+            height: 600px;
+        }
     }
 }
 @media screen and (max-width:700px){
