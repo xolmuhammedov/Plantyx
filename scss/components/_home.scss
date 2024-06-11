@@ -1,0 +1,22 @@
+.home{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .home-left{
+        width: 50%;
+        height: 100%;
+        background-color: green;
+    }
+    .home-right{
+        width: 50%;
+        height: 100%;
+        background-color: red;
+    }
+}
+@media screen and (max-width:800px){
+    .home{
+        flex-direction: column;
+    }
+}
