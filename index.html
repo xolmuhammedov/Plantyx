@@ -11,12 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Belleza&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Belleza&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Belleza&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lora:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./dist/style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header>
+    <header id="luxy" class="luxy-el" data-speed-y="0.5" data-offset="-50" >
         <div class="container">
             <div class="navbar">
                 <div class="nav-left">
@@ -40,7 +41,7 @@
         </div>
     </header>
     <div class="container">
-        <section class="home">
+        <section class="home" data-aos="fade-down">
             <div class="home-left">
                 <div class="text">
                     <h1 class="home-heading">Best house<br>plants varieties.</h1>
@@ -52,6 +53,22 @@
             </div>
         </section>
     </div>
+
+    <!-- luxy.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/luxy.js@0.1.0/dist/luxy.min.js" charset="utf-8"></script>
+    <script charset="utf-8">
+        luxy.init({
+            wrapper: '#luxy',
+            targets: '.luxy-el',
+            wrapperSpeed: 0.05
+        });
+    </script>
+  
+  <!-- AOS ANIMATE -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
