@@ -8,7 +8,6 @@
     .home-left{
         width: 50%;
         height: 100%;
-        background-color: red;
         .text{
             margin-top: 12%;
             .home-heading{
@@ -57,7 +56,6 @@
         height: 100%;
         display: flex;
         justify-content: end;
-        background-color: yellow;
         .flower{
             width: 530px;
             height: 600px;
@@ -149,6 +147,7 @@
                     font-size: 2rem;
                 }
                 .shop-now{
+                    margin-top: 8%;
                     width: 70px;
                     height: 20px;
                     font-size: 7px;
@@ -173,9 +172,59 @@
         }
         .home-right{
             .flower{
-                width: 220px;
-                height: 300px;
+                width: 190px;
+                height: 250px;
             }
         }    
     }
 }
+@media screen and (max-width: 415px){
+    .home{
+        .home-left{
+            .text{
+                .home-heading{
+                    font-size: 1.3rem;
+                }
+                .shop-now{
+                    margin-top: 8%;
+                    width: 40px;
+                    height: 12px;
+                    font-size: 5px;
+                }
+            }
+            .companies{
+                .beautiful{
+                    font-size: 7px;
+                }
+                .we{
+                    font-size: 6px;
+                }
+                .forbes{
+                    width: 100px;
+                    img{
+                        width: 40px;
+                        height: 10px;
+                    }
+                }
+            }
+            
+        }
+        .home-right{
+            .flower{
+                width: 150px;
+                height: 200px;
+            }
+        }    
+    }
+}
+@media screen and (max-width: 320px){
+    .home{
+        .home-right{
+            .flower{
+                width: 125px;
+                height: 180px;
+            }
+        }    
+    }
+}
+
