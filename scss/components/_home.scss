@@ -8,6 +8,7 @@
     .home-left{
         width: 50%;
         height: 100%;
+        background-color: red;
         .text{
             margin-top: 12%;
             .home-heading{
@@ -56,9 +57,44 @@
         height: 100%;
         display: flex;
         justify-content: end;
+        background-color: yellow;
         .flower{
             width: 530px;
             height: 600px;
         }
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .home{
+        .home-left{
+            .text{
+                .home-heading{
+                    font-size: 4rem;
+                }
+                .shop-now{
+                    width: 120px;
+                    height: 40px;
+                    font-size: 13px;
+                }
+            
+            }
+            .companies{
+                .beautiful{
+                    font-size: 18px;
+                }
+                .we{
+                    font-size: 14px;
+                }
+                .forbes{
+                    width: 300px;
+                    img{
+                        width: 120px;
+                        height: 30px;
+                    }
+                }
+            }
+            
+        }    
     }
 }
