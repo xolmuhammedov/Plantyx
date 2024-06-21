@@ -8,6 +8,7 @@
     .home-left{
         width: 50%;
         height: 100%;
+        background-color: red;
         .text{
             margin-top: 12%;
             .home-heading{
@@ -181,6 +182,7 @@
 @media screen and (max-width: 415px){
     .home{
         .home-left{
+            width: 70%;
             .text{
                 .home-heading{
                     font-size: 1.3rem;
