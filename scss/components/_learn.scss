@@ -69,6 +69,7 @@
     .learn{
         display: grid;
         grid-template-columns: 1fr;
+        background-color: green;
         height: 200px;
         .each{
             display: flex;
