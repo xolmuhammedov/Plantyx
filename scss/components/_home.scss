@@ -185,7 +185,6 @@
 @media screen and (max-width: 415px){
     .home{
         height: 300px;
-        background-color: red;
         .home-left{
             width: 70%;
             .text{
@@ -207,10 +206,10 @@
                     font-size: 12px;
                 }
                 .forbes{
-                    width: 50px;
+                    width: 150px;
                     img{
-                        width: 80px;
-                        height: 20px;
+                        width: 70px;
+                        height: 18px;
                     }
                 }
             }
@@ -219,7 +218,7 @@
         .home-right{
             .flower{
                 width: 180px;
-                height: 200px;
+                height: 250px;
             }
         }    
     }

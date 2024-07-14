@@ -69,7 +69,6 @@
     .learn{
         display: grid;
         grid-template-columns: 1fr;
-        background-color: green;
         height: 200px;
         .each{
             display: flex;
@@ -83,7 +82,7 @@
             justify-content: center;
             text-align: center;
             #how{
-                font-size: 20px;
+                font-size: 18px;
                 line-height: 28px;
             }
         }
