@@ -1,13 +1,14 @@
 @use '../util';
+.learn-more{
+    position: relative;
+}
 .learn{
     width: 100%;
     height: 150px;
-    margin-bottom: 150px;
     padding: 0 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    //border: 2px blue solid;
     .each{
         h6{
             font-size: 1.5rem;
@@ -86,5 +87,32 @@
                 line-height: 28px;
             }
         }
+    }
+}
+@media screen and (max-width: 415px){
+    .learn-btn{
+        a{
+            font-size: 12px;
+        }
+        img{
+            width: 20px;
+        }
+    }
+}
+.learn-btn{
+    // position: absolute;
+    // top: 100;
+    // right: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    a{
+        color: #000000;
+        text-decoration: none;
+        list-style: none;
+        font-family: util.$font-dm;
+        font-weight: 500;
     }
 }

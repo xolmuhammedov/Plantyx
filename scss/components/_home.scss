@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 50px;
+    margin-bottom: 0;
     .home-left{
         width: 50%;
         height: 100%;
@@ -58,8 +58,8 @@
         display: flex;
         justify-content: end;
         .flower{
-            width: 530px;
-            height: 600px;
+            width: 580px;
+            height: 700px;
         }
     }
 }
@@ -105,7 +105,7 @@
 }
 @media screen and (max-width: 825px){
     .home{
-        height: 75vh;
+        height: 60vh;
         .home-left{
             .text{
                 .home-heading{
