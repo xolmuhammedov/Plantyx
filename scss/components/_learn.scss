@@ -3,6 +3,7 @@
     position: relative;
 }
 .learn{
+    margin-top: 50px;
     width: 100%;
     height: 150px;
     padding: 0 40px;
@@ -28,6 +29,21 @@
             font-weight: 500;
         }
         //border: 2px green solid;
+    }
+}
+.learn-btn{
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    a{
+        color: #000000;
+        text-decoration: none;
+        list-style: none;
+        font-family: util.$font-dm;
+        font-weight: 500;
     }
 }
 
@@ -97,22 +113,5 @@
         img{
             width: 20px;
         }
-    }
-}
-.learn-btn{
-    // position: absolute;
-    // top: 100;
-    // right: 100px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    a{
-        color: #000000;
-        text-decoration: none;
-        list-style: none;
-        font-family: util.$font-dm;
-        font-weight: 500;
     }
 }
