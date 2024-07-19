@@ -1,0 +1,25 @@
+@use '../util';
+.we-inner{
+    .image{
+        margin-top: 10rem;
+        img{
+            width: 100%;
+        }
+    }
+    .everything{
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        p{
+            font-family: util.$font-belleza;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        h4{
+            font-family: util.$font-lora;
+            font-size: 30px;
+        }
+    }
+}
