@@ -25,6 +25,7 @@
         }
     }
     .shop-images{
+        width: 100%;
         margin-top: 50px;
         display: flex;
         align-items: center;
@@ -40,5 +41,12 @@
         font-family: util.$font-dm;
         font-weight: 600;
         font-size: 17px;
+    }
+}
+@media screen and (max-width: 900px){
+    .shop{
+        .shop-images >{
+            width: 80px;
+        }
     }
 }
